@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="first">My First Text</string>
+    <string name="name">Joseph Mbugua</string>
+    <string name="text">"Relative positioning is one of the basic building blocks of creating layouts in ConstraintLayout. Those constraints allow you to position a given widget relative to another one. You can constrain a widget on the horizontal and vertical axis: "</string>
+    <string name="clickme">Click Me</string>
+    <string name="place">Shared Text</string>
+    <string name="hint">Write anything</string>
+    <string name="exit">Exit App</string>
+</resources>
