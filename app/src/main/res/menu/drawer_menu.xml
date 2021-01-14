@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group  android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_main"
+        android:title="Main Activity"
+        android:icon="@drawable/ic_format_bold_black_24dp"
+        />
+
+    <item
+        android:id="@+id/nav_second"
+        android:title="Terminate App"
+        android:icon="@drawable/ic_mic_none_black_24dp"
+        />
+
+      <item
+          android:id="@+id/nav_bottom"
+          android:title="Bottom Activity"
+          android:icon="@drawable/ic_mic_none_black_24dp"
+          />
+  </group>
+
+    <item android:title="Fragments">
+        <menu>
+
+            <item
+                android:id="@+id/nav_fragmentA"
+                android:title="Fragment A"
+                android:icon="@drawable/ic_forward_10_black_24dp"
+                />
+
+            <item
+                android:id="@+id/nav_fragmentB"
+                android:title="Fragment B"
+                android:icon="@drawable/ic_my_location_black_24dp"
+                />
+
+
+            <item
+                android:id="@+id/nav_fragmentC"
+                android:title="Fragment C"
+                android:icon="@drawable/ic_multiline_chart_black_24dp"
+                />
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

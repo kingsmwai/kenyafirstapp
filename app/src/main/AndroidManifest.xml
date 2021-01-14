@@ -9,15 +9,19 @@
         android:roundIcon="@drawable/ic_format_bold_black_24dp"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".BottomNaviagtion"></activity>
+        <activity android:name=".NavigationActivity">
 
-        <activity android:name=".SecondActivity"/>
-
-        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".LifecycleActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 
