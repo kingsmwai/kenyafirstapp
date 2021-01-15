@@ -78,6 +78,9 @@ public class NavigationActivity extends AppCompatActivity implements NavigationV
                 Intent intentBottom = new Intent(NavigationActivity.this, BottomNaviagtion.class);
                 startActivity(intentBottom);
                 break;
+            case R.id.nav_recycler:
+                Intent intentRecycler = new Intent(NavigationActivity.this,RecyclerActivity.class);
+                startActivity(intentRecycler);
 
             case R.id.nav_tab:
                 Intent intentTab = new Intent(NavigationActivity.this, TabActivity.class);

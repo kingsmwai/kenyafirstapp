@@ -20,6 +20,13 @@
           android:title="Bottom Activity"
           android:icon="@drawable/ic_mic_none_black_24dp"
           />
+
+
+      <item
+          android:id="@+id/nav_recycler"
+          android:title="RecyclerView Activity"
+          android:icon="@drawable/ic_forward_10_black_24dp"
+          />
   </group>
 
     <item android:title="Fragments">
