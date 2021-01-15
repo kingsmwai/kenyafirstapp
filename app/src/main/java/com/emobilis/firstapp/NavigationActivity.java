@@ -79,6 +79,12 @@ public class NavigationActivity extends AppCompatActivity implements NavigationV
                 startActivity(intentBottom);
                 break;
 
+            case R.id.nav_tab:
+                Intent intentTab = new Intent(NavigationActivity.this, TabActivity.class);
+                startActivity(intentTab);
+                break;
+
+
             default:
                 Toast.makeText(this, "Nothing selected", Toast.LENGTH_SHORT).show();
         }
