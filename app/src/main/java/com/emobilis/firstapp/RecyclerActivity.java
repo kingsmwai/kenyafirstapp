@@ -47,7 +47,7 @@ public class RecyclerActivity extends AppCompatActivity {
         mRecyclerView.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(this); //linear vertical orientation
         //populate adapter
-        mAdapter = new RecyclerAdapter(recycerModels);
+        mAdapter = new RecyclerAdapter(RecyclerActivity.this,recycerModels);
 
         mRecyclerView.setLayoutManager(mLayoutManager);
         mRecyclerView.setAdapter(mAdapter);

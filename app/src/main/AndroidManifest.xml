@@ -9,30 +9,24 @@
         android:roundIcon="@drawable/ic_format_bold_black_24dp"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <activity android:name=".TabActivity"></activity>
+        <activity android:name=".ListActivity" />
+        <activity android:name=".SQLiteActivity" />
+        <activity android:name=".CardDescription" />
+        <activity android:name=".TabActivity" />
         <activity android:name=".IntroSlider" />
         <activity android:name=".SplashScreen">
-=======
-        <activity android:name=".RecyclerActivity"></activity>
-        <activity android:name=".BottomNaviagtion" />
-        <activity android:name=".NavigationActivity">
->>>>>>> c5a7777fce2b8b9d8999e534b516dbe8a2e374e9
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RecyclerActivity" />
         <activity android:name=".BottomNaviagtion" />
-        <activity android:name=".NavigationActivity"></activity>
+        <activity android:name=".NavigationActivity" />
         <activity android:name=".LifecycleActivity" />
         <activity android:name=".SecondActivity" />
-<<<<<<< HEAD
         <activity android:name=".MainActivity" />
-=======
-        <activity android:name=".MainActivity"></activity>
->>>>>>> c5a7777fce2b8b9d8999e534b516dbe8a2e374e9
     </application>
 
 </manifest>

@@ -7,9 +7,9 @@
         android:id="@+id/nav_main"
         android:title="Main Activity"
         android:icon="@drawable/ic_format_bold_black_24dp"
-        /><![CDATA[
+        />
 
-    ]]><item
+      <item
         android:id="@+id/nav_second"
         android:title="Terminate App"
         android:icon="@drawable/ic_mic_none_black_24dp"
@@ -27,6 +27,25 @@
           android:title="RecyclerView Activity"
           android:icon="@drawable/ic_forward_10_black_24dp"
           />
+
+      <item
+          android:id="@+id/nav_tab"
+          android:title="Tab Activity"
+          android:icon="@drawable/ic_forward_10_black_24dp"
+          />
+
+      <item
+          android:id="@+id/nav_sqlite"
+          android:title="Sqlite Activity"
+          android:icon="@drawable/ic_forward_10_black_24dp"
+          />
+      <item
+          android:id="@+id/nav_list"
+          android:title="ListView Activity"
+          android:icon="@drawable/ic_forward_10_black_24dp"
+          />
+
+
   </group>
 
     <item android:title="Fragments">

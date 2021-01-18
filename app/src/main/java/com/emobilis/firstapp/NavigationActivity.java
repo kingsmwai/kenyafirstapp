@@ -83,8 +83,19 @@ public class NavigationActivity extends AppCompatActivity implements NavigationV
                 startActivity(intentRecycler);
 
             case R.id.nav_tab:
-                Intent intentTab = new Intent(NavigationActivity.this, TabActivity.class);
-                startActivity(intentTab);
+//                Intent intentTab = new Intent(NavigationActivity.this, TabActivity.class);
+//                startActivity(intentTab);
+                Toast.makeText(this, "Covered in next class", Toast.LENGTH_SHORT).show();
+                break;
+
+            case R.id.nav_sqlite:
+                Intent intentSql = new Intent(NavigationActivity.this, SQLiteActivity.class);
+                startActivity(intentSql);
+                break;
+
+            case R.id.nav_list:
+                Intent intentList = new Intent(NavigationActivity.this, ListActivity.class);
+                startActivity(intentList);
                 break;
 
 
