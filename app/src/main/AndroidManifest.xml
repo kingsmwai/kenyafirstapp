@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.emobilis.firstapp">
+    <!-- write permissions -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 
     <application
         android:allowBackup="true"
@@ -8,7 +15,10 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/ic_format_bold_black_24dp"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".SharedPrefActivity"></activity>
+        <activity android:name=".ImageActivity" />
         <activity android:name=".ListActivity" />
         <activity android:name=".SQLiteActivity" />
         <activity android:name=".CardDescription" />

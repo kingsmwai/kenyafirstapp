@@ -45,7 +45,17 @@
           android:icon="@drawable/ic_forward_10_black_24dp"
           />
 
+      <item
+          android:id="@+id/nav_image"
+          android:title="Image Activity"
+          android:icon="@drawable/ic_forward_10_black_24dp"
+          />
 
+      <item
+          android:id="@+id/nav_shared"
+          android:title="Shared Prefs/Call_EMail"
+          android:icon="@drawable/ic_forward_10_black_24dp"
+          />
   </group>
 
     <item android:title="Fragments">
