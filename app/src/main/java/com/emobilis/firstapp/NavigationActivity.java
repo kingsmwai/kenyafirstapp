@@ -109,6 +109,20 @@ public class NavigationActivity extends AppCompatActivity implements NavigationV
                 startActivity(intentShared);
                 break;
 
+            case R.id.nav_cust_list:
+                Intent intentListCust = new Intent(NavigationActivity.this,CustomListView.class);
+                startActivity(intentListCust);
+                break;
+
+            case R.id.nav_interface:
+                Intent intentInterface = new Intent(NavigationActivity.this,FragmentCommunication_Interface.class);
+                startActivity(intentInterface);
+                break;
+
+            case R.id.nav_shareModel:
+                Intent intentShareModel = new Intent(NavigationActivity.this,FragmentCommunication_ShareModel.class);
+                startActivity(intentShareModel);
+                break;
 
             default:
                 Toast.makeText(this, "Nothing selected", Toast.LENGTH_SHORT).show();
